@@ -18,7 +18,7 @@ header{
 #qsomos{
     flex-direction: column;
     line-height: 10px;
-    transform: translateX(-68px);
+    margin-left: 30%;
 }
 
 #cato{
@@ -45,7 +45,7 @@ h3{
     justify-content: bottom;
     text-align: center;
     margin-bottom: -10px;
-    line-height: 5px;       
+    line-height: 20px;       
 }
 
 main{
