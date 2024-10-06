@@ -16,9 +16,12 @@ header{
 }
 
 #title{
-    padding-left: 75px;
-    line-height: 10px;
-    text-align: left;
+    float: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+    padding-right: 14%;
     
 }
 
@@ -67,6 +70,9 @@ p{
 #cato{
     width: 100px;
     height: 100px;
+    float: left;
+    left: 0;
+    top: 0;           
 }
 
 a{

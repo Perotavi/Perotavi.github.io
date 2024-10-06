@@ -16,17 +16,20 @@ header{
 }
 
 #qsomos{
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-self: center;
-    line-height: 10px;
-    margin-left: 43%;
+    float: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+    padding-right: 23%;
 }
 
 #cato{
     width: 100px;
     height: 100px;
+    float: left;
+    left: 0;
+    top: 0;
             
 }
 

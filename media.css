@@ -10,8 +10,6 @@
         flex-direction: column;
     }
 
-
-
     form{
         margin: 0 auto;
         width: 100%;
@@ -30,23 +28,38 @@
         display: none;
     }
 
+    #qsomos{
+        max-width: fit-content;
+        margin-left: 65%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+
     #cato{
         display: none;
     }
 
     #title{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        max-width: fit-content;
+        margin-left: 45%;
+        display: flex;
+        flex-direction: row;
         justify-content: center;
-        margin-left: 17%;
-        line-height: 1%;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    
     }
 
     ul{
+        max-width: fit-content;
         text-align: center;
-        margin-right: 5%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
 
