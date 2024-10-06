@@ -1,0 +1,82 @@
+@import url("/qsomos.css");
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: "Poppins", serif;
+    color: rgb(226, 225, 225);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#qsomos{
+    flex-direction: column;
+    line-height: 10px;
+    transform: translateX(-68px);
+}
+
+#cato{
+    width: 100px;
+    height: 100px;
+            
+}
+
+a{
+    color: white;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 350;
+    transform: translateX(-68px);
+}
+
+h3{
+    justify-content: bottom;
+    text-align: center;
+    margin-bottom: -10px;
+    line-height: 5px;       
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.45s;
+}
+
+#jatemcontabtn{
+    border: 2px solid rgb(132, 14, 201);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#jatemcontabtn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+span{
+    color: rgb(132, 14, 201);
+}
+
+#texto h2{
+    font-weight: 300;
+}
+
+
+
+
